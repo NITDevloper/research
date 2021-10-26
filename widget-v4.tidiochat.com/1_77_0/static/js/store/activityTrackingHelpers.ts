@@ -1,0 +1,32 @@
+// eslint-disable-next-line import/prefer-default-export
+export const trackingEvents = {
+    widgetLoaded: 'widgetLoaded',
+    prechatOpened: 'prechatOpened',
+    alwaysOnlineOpened: 'alwaysOnlineOpened',
+    closeModalClicked: 'closeModalClicked',
+    rateConversationClicked: 'rateConversationClicked',
+    cardsScrolled: 'cardsScrolled',
+    quickReplyClicked: 'quickReplyClicked',
+    buttonClicked: 'buttonClicked',
+    flyMessageDisplayed: 'flyMessageDisplayed', // TODO: add param if with buttons, if message was image or text
+    flyMessageClosed: 'flyMessageClosed',
+    flyMessageClicked: 'flyMessageClicked', // TODO: add param if image or textarea clicked
+    widgetLabelClicked: 'widgetLabelClicked',
+    widgetIconClicked: 'widgetIconClicked',
+    emojiPanelOpened: 'emojiPanelOpened',
+    emojiAdded: 'emojiAdded',
+    notificationsTurnedOff: 'notificationsTurnedOff',
+    notificationsTurnedOn: 'notificationsTurnedOn',
+    botsButtonClicked: 'botsButtonClicked',
+    flyMessageButtonsClicked: 'flyMessageButtonsClicked',
+    botStartedFromBotsMenu: 'botStartedFromBotsMenu',
+    botCanceled: 'botCanceled',
+    uploadButtonClicked: 'uploadButtonClicked',
+    chatClosed: 'chatClosed',
+    optionsButtonClicked: 'optionsButtonClicked',
+    showPreviousMessagesClicked: 'showPreviousMessagesClicked',
+    tidioChatApiFunctionCall: 'tidioChatApiFunctionCall',
+    imageModalDisplayed: 'imageModalDisplayed',
+    imageModalClosed: 'imageModalClosed',
+    fullConversationHistoryRequested: 'fullConversationHistoryRequested',
+} as const;
